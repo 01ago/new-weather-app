@@ -102,15 +102,15 @@ export default function Weather() {
           {" "}
           <a
             className="github-icon"
-            href="https://github.com/lmnlfrz/weather-app-github"
+            href="https://github.com/01ago/new-weather-app"
             target="_blank"
             rel="noreferrer"
-          >
+          >Coded by Asli Guresci Onder
             {" "}
             <i className="fab fa-github"></i>{" "}
           </a>{" "}
         </span>
-        <p className="footer">Coded by Asli Guresci Onder</p>
+     {/*    <p className="footer">Coded by Asli Guresci Onder</p> */}
       </div>
     </div>
   );
