@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Weather from "./Weather"
 
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         
         <p>
-         hello world
+         hello worldddd
         </p>
         <Weather city="ottawa"/>
      
