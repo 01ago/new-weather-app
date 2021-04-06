@@ -22,13 +22,17 @@
       max-width: 650px;
     }
     .Weather .units {
-      margin-left: 20px;
+      margin-left: 40px;
     }
     .Weather .row .temperature {
       font-size: 30px;
       position: relative;
-      left: 70px;
-      top: 5px;
+      left: 30px;
+      top: 2px;
+    }
+    .Weather .date {
+      position: relative;
+      left: -30px;
     }
     .Weather .nextdays {
       display: none;
@@ -174,7 +178,7 @@
     font-family: "Orbitron", sans-serif;
     color: rgb(133, 122, 122);
     position: relative;
-    top: 1px;
+    top: 20px;
   }
   
   .Weather .feels {
