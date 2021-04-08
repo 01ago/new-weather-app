@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherIcon from "./WeatherIcon";
 
 export default function Weatherinfo(props) {
 return ( 
@@ -12,13 +13,14 @@ return (
 </span>
 
 <div className="date"> <FormattedDate date={props.data.date}/></div>
-<div className="icon">< img src={props.data.iconUrl} alt="icon image"></img></div>
+
+<WeatherIcon code={props.data.icon} />
 
 <div className="row">
 <div className="col-6 weather-temp">
-  <img src="" className="weathericon" alt="" />
+ 
   <p></p>
-  <img src="" alt="" className="mainicon" />
+ 
   <span className="temperature"> {props.data.temperature}</span>
   <span className="units">
     <a href="/" className="celcius active">
@@ -47,30 +49,21 @@ return (
 <div className="row weather-forecast">
   <div className="col-2">
     <h3> Sun</h3>
-    <img
-      src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
-      alt=""
-    />
+    <span className="forecasticon"><WeatherIcon code={props.data.icon} /></span>
     <div className="weather-forecast-temperature">
       <strong>22°</strong> 17°
     </div>
   </div>
   <div className="col-2">
     <h3> Mon</h3>
-    <img
-      src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
-      alt=""
-    />
+    <span className="forecasticon"><WeatherIcon code={props.data.icon} /></span>
     <div className="weather-forecast-temperature">
       <strong>22°</strong> 17°
     </div>
   </div>
   <div className="col-2">
     <h3>Tue</h3>
-    <img
-      src="https://ssl.gstatic.com/onebox/weather/48/rain_s_cloudy.png"
-      alt=""
-    />
+    <span className="forecasticon"><WeatherIcon code={props.data.icon} /></span>
     <div className="weather-forecast-temperature">
       <strong>22°</strong> 17°
     </div>
