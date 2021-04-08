@@ -271,16 +271,21 @@
     text-decoration: none;
   }
   
-  .Weather .row.weather-forecast {
+  .Weather .row.weather-forecast  {
     position: relative;
     left: 290px;
     margin-top: -170px;
     color: rgb(135, 135, 135);
     font-family: "Orbitron", sans-serif;
   }
+
+  .Weather .forecasticon{
+    position: relative;
+    right:88px
+  }
   .Weather .nextdays {
     position: relative;
-    left: 370px;
+    left: 390px;
     top: -180px;
     color: rgb(135, 135, 135);
     font-family: "Orbitron", sans-serif;
@@ -299,10 +304,11 @@
     font-size: 12px;
     text-align: center;
   }
-  
-  .Weather .mainicon {
+
+  .Weather canvas{
     position: relative;
-    top: -55px;
-    left: -110px;
+    top: 5px;
+    left: 90px;
   }
   
+ 
