@@ -55,16 +55,17 @@ export default function Weather(props) {
           </form>
           <Weatherinfo  data={weatherData}/>
          
-          <span className="githubicon">
+          <span className="github">
             {" "}
+           
             <a
-              className="github-icon"
+              className="github-address"
               href="https://github.com/01ago/new-weather-app"
               target="_blank"
               rel="noreferrer"
             >Coded by Asli Guresci Onder
               {" "}
-              <i className="fab fa-github"></i>{" "}
+              {/* <i className="fab fa-github"></i> */}{" "}  <img class="github-icon" src="github_icon.png"></img>
             </a>{" "}
           </span>
        {/*    <p className="footer">Coded by Asli Guresci Onder</p> */}
