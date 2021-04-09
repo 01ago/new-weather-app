@@ -65,7 +65,7 @@ export default function Weather(props) {
               rel="noreferrer"
             >Coded by Asli Guresci Onder
               {" "}
-              {/* <i className="fab fa-github"></i> */}{" "}  <img class="github-icon" src="github_icon.png"></img>
+              {/* <i className="fab fa-github"></i> */}{" "}  <img class="github-icon" src="github_icon.png" alt=""></img>
             </a>{" "}
           </span>
        {/*    <p className="footer">Coded by Asli Guresci Onder</p> */}
