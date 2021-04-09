@@ -162,11 +162,13 @@
     font-family: "Orbitron", sans-serif;
     position: relative;
     top: 20px;
+    
   }
   .Weather .units {
     position: relative;
     top: -27px;
     right: 1px;
+    
   }
   .Weather .search-form {
     margin: 20px 20px 0 5px;
@@ -180,7 +182,23 @@
     position: relative;
     top: 20px;
   }
+
+  .Weather .active {
+    text-decoration: none;
+    color:rgb(133, 122, 122);
+  }
   
+ /*  .Weather .weather-temp .active {
+    color: rgb(135, 135, 135);
+    cursor: default;
+  } */
+  /* .Weather .weather-temp .active  :hover {
+    text-decoration: none;
+   
+  }
+   */
+
+
   .Weather .feels {
     margin: 0;
     font-family: "Orbitron", sans-serif;
@@ -263,14 +281,7 @@
     border: solid 1px grey;
   }
   
-  .Weather .weather-temp .active {
-    color: rgb(135, 135, 135);
-    cursor: default;
-  }
-  .Weather .weather-temp .active:hover {
-    text-decoration: none;
-  }
-  
+ 
   .Weather .row.weather-forecast  {
     position: relative;
     left: 290px;
