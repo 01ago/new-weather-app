@@ -13,7 +13,7 @@ export default function TempUnit(props){
    
     if(unit==="celcius"){
     return(
-        <div className="TempUnit">
+        <span className="TempUnit">
         <span className="temperature"> {Math.round(props.celcius)}</span>
         <span className="units">
         <a href="/" className="celcius"> °C | </a>{""}
@@ -22,7 +22,7 @@ export default function TempUnit(props){
           </a>
          
         </span>
-        </div>
+        </span>
     );}
     else{
         let fahTemp= Math.round((props.celcius*9/5)+32);
