@@ -2,27 +2,27 @@
    .Weather .WeatherForecast .nextday1  {
     position: relative;
   right:320px;
-    top: 100px;
+    top: -19px;
     
   } 
   
   .Weather .WeatherForecast .nextday2  {
     position: relative;
     right:200px;
-    top: 13px;
+    top: -107px;
     
   } 
   .Weather .WeatherForecast .nextday3  {
     position: relative;
     right:90px;
-   top: -74px;
+   top: -193px;
     
   } 
 
  .Weather .WeatherForecast .col-2 .forecastTemp{
     position: relative;
-    right:-330px;
-    bottom:-50px;
+    right:-350px;
+    bottom:-49px;
    
   }
 
@@ -30,7 +30,7 @@
   .Weather .nextdays {
     position: relative;
     left: 480px;
-    top: -50px;
+    top: -185px;
     color: rgb(135, 135, 135);
     font-family: "Orbitron", sans-serif;
     font-weight: bold;
@@ -41,7 +41,7 @@
    .Weather .forecasticon canvas{
     position: relative;
     top: 5px;
-    left: 380px;
+    left: 399px;
   }  
 
 
